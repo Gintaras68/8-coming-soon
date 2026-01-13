@@ -1,5 +1,6 @@
 /* basic styles (initial) */
 @import './basic/reset.css';
+@import './basic/variables.css';
 
 /* styles for components */
 @import './components/button.css';
@@ -9,3 +10,10 @@
 @import './components/progress-bar.css';
 
 /* styles for page 'home' */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondaryy);
+}
