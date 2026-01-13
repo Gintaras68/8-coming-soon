@@ -52,6 +52,27 @@
 }
 
 /* MAIN */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+main p {
+  font-size: 17px;
+  color: var(--color-grey);
+  line-height: 1.7em;
+}
+
+main p a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
 
 /* FOOTER */
 footer.container {
