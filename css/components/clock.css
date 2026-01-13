@@ -1,0 +1,35 @@
+.clock {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  color: var(--color-light);
+}
+
+.clock > .time {
+}
+
+.clock .value {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.clock .title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .clock {
+    width: 280px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .clock .value {
+    font-size: 60px;
+  }
+
+  .clock .title {
+    font-size: 16px;
+  }
+}
