@@ -1,3 +1,7 @@
+# Coming soon
+
+This project is for education porpuses only.
+
 ## Project features
 
 - responsive design
