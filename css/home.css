@@ -18,3 +18,63 @@
 .bg-secondary {
   background-color: var(--color-secondaryy);
 }
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  padding-bottom: 20px;
+  background-image: url('../img/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.hero .logo {
+  height: 30px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 18px;
+  color: var(--color-grey);
+}
+
+/* MAIN */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+main p {
+  font-size: 17px;
+  color: var(--color-grey);
+  line-height: 1.7em;
+}
+
+main p a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer.container {
+  padding-top: 0;
+}
