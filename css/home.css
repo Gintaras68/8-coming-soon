@@ -1,6 +1,7 @@
 /* basic styles (initial) */
 @import './basic/reset.css';
 @import './basic/variables.css';
+@import './basic/layout.css';
 
 /* styles for components */
 @import './components/button.css';

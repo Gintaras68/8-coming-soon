@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  padding: 60px 15px;
+}
+
+.container > .row {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.container > .row-big {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(179, 255, 0);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  background-color: lightcyan;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero {
+  padding-bottom: 20px;
+}
+
+footer.container {
+  padding-top: 0;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    max-width: 550px;
+  }
+}
