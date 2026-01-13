@@ -7,7 +7,6 @@
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
-  background-color: yellow;
 }
 
 .container > .row-big {
@@ -28,14 +27,6 @@
   max-width: 450px;
   width: 100%;
   text-align: center;
-}
-
-.hero {
-  padding-bottom: 20px;
-}
-
-footer.container {
-  padding-top: 0;
 }
 
 @media (max-width: 900px) {
