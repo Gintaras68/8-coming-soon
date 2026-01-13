@@ -1,1 +1,3 @@
-console.log("I'm conected!");
+import { renderClock } from './components/clock/clock.js';
+
+renderClock('#hero-clock');
