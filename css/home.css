@@ -4,7 +4,7 @@
 @import './basic/layout.css';
 
 /* 3d-party */
-@import './3d-party/fontawesome.min.css';
+/* @import './3d-party/fontawesome.min.css'; */
 
 /* styles for components */
 @import './components/button.css';
@@ -81,4 +81,8 @@ main p a {
 /* FOOTER */
 footer.container {
   padding-top: 0;
+}
+
+footer a {
+  color: var(--color-light);
 }
