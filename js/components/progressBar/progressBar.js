@@ -3,14 +3,14 @@ function progressBar(selector, data) {
   let HTML = '';
 
   data.forEach(({ label, value }) => {
-    HTML += `<div class="progress-bar">
+    HTML += ` <div class="progress-bar">
                 <div class="top">
                   <span>${label}</span>
-                  <span>${value}</span>
+                  <span>${value} %</span>
                 </div>
 
                 <div class="bottom">
-                  <div class="progress"></div>
+                  <div class="progress" style="width: ${value}%" ></div>
                 </div>
               </div>`;
   });
