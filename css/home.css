@@ -28,6 +28,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  /* display: none; */
 }
 
 .hero .row {
@@ -81,11 +82,19 @@ footer.container {
 }
 
 footer > .row-big {
+  position: relative;
   padding: 12px 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
+  border-bottom: 2px solid #fff2;
+}
+
+.back-to-top {
+  position: absolute;
+  top: -24px;
+  right: 0;
 }
 
 .social-link {
