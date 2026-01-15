@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coming soon</title>
     <link rel="stylesheet" href="./css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <div class="hero container bg-primary">
@@ -18,21 +22,20 @@
         </p>
         <div id="hero-clock" class="clock"></div>
         <form>SUBSCRIBE FORM</form>
-        <div class="mouse">MOUSE</div>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
       </div>
     </div>
 
     <main class="container">
       <div class="row-big wrapper">
-        <div class="column">
+        <div class="column left-column">
           <h2>About startup</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             <a href="#"> Matrox</a> Rem a magni inventore, culpa dolorem hic!
           </p>
-          <div class="progress-bar">PROGRESS-BAR</div>
-          <div class="progress-bar">PROGRESS-BAR</div>
-          <div class="progress-bar">PROGRESS-BAR</div>
         </div>
 
         <div class="column">
@@ -48,7 +51,7 @@
     </main>
 
     <footer class="container bg-primary">
-      <div class="row-big">FOOTER - SOCIALS</div>
+      <div id="social-links" class="row-big"></div>
       <div class="row">FOOTER - TEXT</div>
     </footer>
     <script src="./js/home.js" type="module" defer></script>

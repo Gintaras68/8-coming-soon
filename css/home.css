@@ -79,3 +79,35 @@ main p a {
 footer.container {
   padding-top: 0;
 }
+
+footer > .row-big {
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.social-link {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  i {
+    color: var(--color-light);
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+.social-link:hover {
+  background-color: var(--color-light);
+  i {
+    color: var(--color-primary);
+  }
+}
