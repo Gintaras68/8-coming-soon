@@ -7,7 +7,7 @@ function socials(selector, data) {
       content += `<a href=${href} class="social-link" target="_blank"><i class="${icon}"></i></a>`;
     }
   });
-  DOM.innerHTML = content;
+  DOM.innerHTML += content;
 }
 
 export { socials };
