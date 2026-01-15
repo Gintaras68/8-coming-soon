@@ -99,6 +99,7 @@ footer > .row-big {
   justify-content: center;
   align-items: center;
   color: transparent;
+  text-decoration: none;
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
   i {
