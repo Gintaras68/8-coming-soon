@@ -1,9 +1,4 @@
 .progress-bar {
-  /* width: 100%; */
-  /* align-items: stretch; */
-}
-
-.progress-bar {
   .top {
     display: flex;
     justify-content: space-between;
@@ -15,17 +10,32 @@
 
 .progress-bar {
   .bottom {
-    position: relative;
     width: 100%;
-    height: 4px;
+    height: 6px;
     background-color: #ddd;
   }
 
   .progress {
-    position: absolute;
-    content: '';
     width: 90%;
-    height: 4px;
+    height: 100%;
+  }
+
+  .bar {
+    height: 100%;
+    width: 100%;
     background-color: var(--color-primary);
+    animation: progress 2s forwards;
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+}
+
+@keyframes progress {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(100%);
   }
 }

@@ -3,9 +3,6 @@
 @import './basic/variables.css';
 @import './basic/layout.css';
 
-/* 3d-party */
-/* @import './3d-party/fontawesome.min.css'; */
-
 /* styles for components */
 @import './components/button.css';
 @import './components/clock.css';
@@ -31,7 +28,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  display: none;
 }
 
 .hero .row {

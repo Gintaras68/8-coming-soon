@@ -10,7 +10,9 @@ function progressBar(selector, data) {
                 </div>
 
                 <div class="bottom">
-                  <div class="progress" style="width: ${value}%" ></div>
+                  <div class="progress" style="width: ${value}%" >
+                    <div class="bar"></div>
+                  </div>
                 </div>
               </div>`;
   });
