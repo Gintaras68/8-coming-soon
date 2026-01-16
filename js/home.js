@@ -7,3 +7,21 @@ import { socialsData } from './data/socialsData.js';
 renderClock('#hero-clock', '03-24 10:00:00');
 socials('#social-links', socialsData);
 progressBar('.left-column', progressBarData);
+
+const allProgessBarDOM = document.querySelectorAll('.progress-bar');
+
+const animate = () => {
+  let totalanimated = 0;
+  for (const bar of allProgessBarDOM) {
+    if (bar.offsetTop + bar.offsetHeight <= scrollY + innerHeight) {
+      bar.classList.add('visible');
+      totalanimated++;
+    }
+  }
+
+  if (totalanimated === allProgessBarDOM.length) {
+    document.removeEventListener('scroll', animate);
+  }
+};
+
+document.addEventListener('scroll', animate);

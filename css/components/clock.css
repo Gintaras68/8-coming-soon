@@ -20,7 +20,7 @@
 
 @media (max-width: 600px) {
   .clock {
-    width: 280px;
+    width: 200px;
     flex-wrap: wrap;
     gap: 40px;
   }
