@@ -28,29 +28,28 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /* display: none; */
-}
 
-.hero .row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-}
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
 
-.hero .logo {
-  height: 30px;
-}
+  .logo {
+    height: 30px;
+  }
 
-.hero h1 {
-  font-size: 70px;
-  text-transform: uppercase;
-}
+  h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+  }
 
-.hero p {
-  font-size: 18px;
-  color: var(--color-grey);
+  p {
+    font-size: 18px;
+    color: var(--color-grey);
+  }
 }
 
 /* MAIN */
