@@ -19,7 +19,7 @@ const animate = () => {
     }
   }
 
-  if (totalanimated >= 3) {
+  if (totalanimated === allProgessBarDOM.length) {
     document.removeEventListener('scroll', animate);
   }
 };
