@@ -6,9 +6,7 @@
     color: var(--color-grey);
     font-size: 18px;
   }
-}
 
-.progress-bar {
   .bottom {
     width: 100%;
     height: 6px;
@@ -24,9 +22,14 @@
     height: 100%;
     width: 100%;
     background-color: var(--color-primary);
-    animation: progress 2s forwards;
     transform-origin: left;
     transform: scaleX(0);
+  }
+
+  &.visible {
+    .bar {
+      animation: progress 2s forwards;
+    }
   }
 }
 
